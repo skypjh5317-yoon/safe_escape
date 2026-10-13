@@ -1,0 +1,8 @@
+{
+  "name": "긴급재난 대피 알리미 (SafeEscape)",
+  "description": "지진 및 화산 폭발 시 음성 경고 방송, 근처 대피소 지도 및 경로 안내, 비상 대피 물품 체크리스트, 상황별 생존 대피요령을 제공하는 통합 재난 대피 시스템",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

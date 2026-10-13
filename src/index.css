@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Leaflet Map overrides for disaster radar */
+.leaflet-container {
+  background-color: #0f172a !important;
+  font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #020617 !important;
+  color: #f8fafc !important;
+  border: 1px solid #334155 !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.leaflet-popup-tip {
+  background-color: #020617 !important;
+}
+
+.user-location-pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shelter-pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
